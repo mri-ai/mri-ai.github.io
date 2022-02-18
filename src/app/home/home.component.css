@@ -1,7 +1,10 @@
 
 .navbar{
   background-color: black;
-  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 img {
@@ -12,28 +15,105 @@ img {
 /*
 */
 
-.brand{
-  max-height: 100px;
+/*.brand{*/
+/*  max-height: 100px;*/
+/*}*/
+
+/*.navbar {*/
+/*  color: #FFF;*/
+/*}*/
+/*a:hover{*/
+/*  color: yellow;*/
+/*}*/
+
+/*#labNameOver{*/
+/*  position: absolute;*/
+/*  z-index: 999;*/
+/*  top: 40%;*/
+/*  left: 20%;*/
+/*  color: white;*/
+/*}*/
+/*#labNameOver1{*/
+/*  position: absolute;*/
+/*  z-index: 999;*/
+/*  top: 47%;*/
+/*  left: 12%;*/
+/*  color: white;*/
+/*}*/
+
+/**/
+
+/** {*/
+/*  box-sizing: border-box;*/
+/*}*/
+body{
+  margin: 0;
+  padding: 0;
 }
 
-.navbar {
-  color: #FFF;
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
 }
-a:hover{
-  color: yellow;
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-#labNameOver{
-  position: absolute;
-  z-index: 999;
-  top: 40%;
-  left: 20%;
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a{
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
   color: white;
 }
-#labNameOver1{
+.navbar-links li:hover{
+  background-color: #555;
+}
+
+.toggle-button{
   position: absolute;
-  z-index: 999;
-  top: 47%;
-  left: 12%;
-  color: white;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .toggle-button{
+    display: flex;
+  }
+  .navbar-links{
+    width: 100%;
+    display: none;
+  }
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li{
+    text-align: center;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
 }

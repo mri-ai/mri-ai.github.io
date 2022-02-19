@@ -9,31 +9,29 @@
 <style>
   html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
-<nav class="navbar">
-  <div class="brand-title">Brand Name</div>
-  <a (click)="isOverlayDisplayed = !isOverlayDisplayed" href="#" class="toggle-button">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  </a>
-  <div class="navbar-links">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Research</a></li>
-      <li><a href="#">Publications</a></li>
-      <li><a href="#">The Team</a></li>
-      <li><a href="#">Open Positions</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-</nav>
+<!--<nav class="navbar">-->
+<!--  <div class="brand-title">Logo University</div>-->
+<!--  <a (click)="isOverlayDisplayed = !isOverlayDisplayed" href="#" class="toggle-button">-->
+<!--    <span class="bar"></span>-->
+<!--    <span class="bar"></span>-->
+<!--    <span class="bar"></span>-->
+<!--  </a>-->
+<!--  <div class="navbar-links">-->
+<!--    <ul>-->
+<!--      <li><a href="#">Home</a></li>-->
+<!--      <li><a href="#">Research</a></li>-->
+<!--      <li><a href="#">Publications</a></li>-->
+<!--      <li><a href="#">The Team</a></li>-->
+<!--      <li><a href="#">Open Positions</a></li>-->
+<!--      <li><a href="#">Contact Us</a></li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--</nav>-->
 
 <body class="w3-white">
-
-
 <div class="w3-container w3-stretch" style="backgrund-color: black">
 <img class="image_image" src="assets/images/Croped_Brain_3D_Width_4_to_1_Height.jpg" style="position: center; padding-top: 12%; width: 100%; height: 50%;" alt="Avatar">
-<div [style.display]="this.isOverlayDisplayed? 'flex' : 'none' " class="image_overlay">
+<div [style.display]="this.getBurgerStatus()? 'flex' : 'none' " class="image_overlay">
   <div class="image_title"><h1>LABRT</h1></div>
   <p class="image_description">Here we have six words sentence</p>
 </div>
@@ -98,8 +96,8 @@
 
   </div>
 
-  <div class="w3-container w3-center w3-white">
-    <img src="assets/images/Three_Orient_Image.jpg">
+  <div class="w3-container w3-center w3-black" >
+    <img src="assets/images/Three_Orient_Image.jpg" style="width: 100%; height: 50%; padding-top: 6%; padding-bottom: 6%">
   </div>
 
       <div class="w3-container w3-center w3-white">

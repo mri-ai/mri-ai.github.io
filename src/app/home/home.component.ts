@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, Input, OnInit} from '@angular/core';
+import {BsNavbarComponent} from "../bs-navbar/bs-navbar.component";
+import {ShareServiceService} from "../share-service.service";
 
 @Component({
   selector: 'app-home',
@@ -7,18 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  isOverlayDisplayed = true;
-  constructor() {
+  @Input('val')
+  isOverlayDisplayed;
+  constructor(private shareService: ShareServiceService) {
 
   }
 
   ngOnInit(): void {
-    const toggleButton = document.getElementsByClassName('toggle-button')[0];
-    const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
-    toggleButton.addEventListener('click', () => {
-      navbarLinks.classList.toggle('active');
-    });
   }
 
   getOverlayDisplay(): string{
@@ -31,4 +29,8 @@ export class HomeComponent implements OnInit {
     }
   }
 
+
+  getBurgerStatus() {
+    return this.shareService.isBurgerClicked;
+  }
 }

@@ -1,36 +1,18 @@
-
-<nav id="na" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" routerLink="/">ClimbOn</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-
-      <li class="nav-item">
-        <a class="nav-link" routerLink="community-zone">My climbs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="find-partner">Climb with</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="explore-sites">Climb in</a>
-      </li>
-
-<!--      <li ngbDropdown class="nav-item dropdown show">-->
-<!--        <a ngbDropdownToggle class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ this.firstName }}</a>-->
-<!--        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">-->
-<!--          <a *ngIf="isAdmin" class="dropdown-item" routerLink="admin/sites">Manage Sites</a>-->
-<!--          <a (click)="logout()" id="logout" *ngIf="isLoggedIn" class="dropdown-item">Log Out</a>-->
-<!--          <a [routerLink]="['/personal-zone/', userName]" id="perzone" *ngIf="isLoggedIn" class="dropdown-item">Personal Zone</a>-->
-<!--          <a *ngIf="!isLoggedIn" class="dropdown-item" routerLink="login">Login</a>-->
-
-
-<!--        </div>-->
-<!--      </li>-->
+<nav class="navbar">
+  <div class="brand-title">Logo University</div>
+  <a (click)="clickBurger()" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+  <div class="navbar-links">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Research</a></li>
+      <li><a href="publications">Publications</a></li>
+      <li><a href="#">The Team</a></li>
+      <li><a href="#">Open Positions</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
-
   </div>
 </nav>
-

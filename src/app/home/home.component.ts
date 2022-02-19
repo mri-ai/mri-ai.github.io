@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  isOverlayDisplayed = true;
   constructor() {
 
   }
@@ -18,6 +19,16 @@ export class HomeComponent implements OnInit {
     toggleButton.addEventListener('click', () => {
       navbarLinks.classList.toggle('active');
     });
+  }
+
+  getOverlayDisplay(): string{
+    console.log('isdisplayed: ', this.isOverlayDisplayed);
+    if (this.isOverlayDisplayed){
+      return 'flex;';
+    }
+    else {
+      return 'none;';
+    }
   }
 
 }

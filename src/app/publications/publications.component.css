@@ -181,4 +181,10 @@ body{
 
 .card:hover{
   cursor: pointer;
+  filter: brightness(80%);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }

@@ -5,14 +5,14 @@
     <span class="bar"></span>
     <span class="bar"></span>
   </a>
-  <div class="navbar-links">
+  <div [style.display]="this.getBurgerStatus()? 'none' : 'flex' " class="navbar-links">
     <ul>
-      <li><a routerLink="home">Home</a></li>
-      <li><a routerLink="research">Research</a></li>
-      <li><a routerLink="publications">Publications</a></li>
-      <li><a routerLink="team">The Team</a></li>
-      <li><a routerLink="open-positions">Open Positions</a></li>
-      <li><a routerLink="contact">Contact Us</a></li>
+      <li ><a (click)="clickBurger()" routerLink="home">Home</a></li>
+      <li ><a (click)="clickBurger()" routerLink="research">Research</a></li>
+      <li><a (click)="clickBurger()" routerLink="publications">Publications</a></li>
+      <li><a (click)="clickBurger()" routerLink="team">The Team</a></li>
+      <li><a (click)="clickBurger()" routerLink="open-positions">Open Positions</a></li>
+      <li><a (click)="clickBurger()" routerLink="contact">Contact Us</a></li>
     </ul>
   </div>
 </nav>

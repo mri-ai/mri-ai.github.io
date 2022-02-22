@@ -36,4 +36,9 @@ export class BsNavbarComponent implements OnInit {
   getBurgerStatus(){
     return this.shareService.isBurgerClicked;
   }
+
+  isSmallWindow() {
+    var w = window.innerWidth;
+    return w < 800;
+  }
 }

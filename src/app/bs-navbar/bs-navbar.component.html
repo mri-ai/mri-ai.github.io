@@ -5,7 +5,7 @@
     <span class="bar"></span>
     <span class="bar"></span>
   </a>
-  <div [style.display]="this.getBurgerStatus()? 'none' : 'flex' " class="navbar-links">
+  <div [style.display]="this.getBurgerStatus() && isSmallWindow()? 'none' : 'flex' " class="navbar-links">
     <ul>
       <li ><a (click)="clickBurger()" routerLink="home">Home</a></li>
       <li ><a (click)="clickBurger()" routerLink="research">Research</a></li>

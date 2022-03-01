@@ -67,6 +67,15 @@ body{
 }
 .navbar-links li:hover{
   background-color: #555;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .toggle-button{
@@ -125,4 +134,8 @@ body{
   a:hover{
     cursor: pointer;
   }
+}
+
+.brand-title:hover {
+  cursor: pointer;
 }

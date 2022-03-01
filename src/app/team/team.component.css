@@ -72,3 +72,9 @@ section.our-team {
 .our-team .member:hover .social {
   bottom: 10px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -9,6 +9,7 @@ import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { TeamComponent } from './team/team.component';
 import { CareersComponent } from './careers/careers.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CareersComponent } from './careers/careers.component';
     BsNavbarComponent,
     PublicationsComponent,
     TeamComponent,
-    CareersComponent
+    CareersComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

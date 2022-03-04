@@ -4,6 +4,8 @@ import {HomeComponent} from "./home/home.component";
 import {PublicationsComponent} from "./publications/publications.component";
 import {TeamComponent} from "./team/team.component";
 import {CareersComponent} from "./careers/careers.component";
+import {ContactComponent} from "./contact/contact.component";
+import {SoftwareComponent} from "./software/software.component";
 
 
 const routes: Routes = [
@@ -11,6 +13,8 @@ const routes: Routes = [
   { path: 'publications', component: PublicationsComponent },
   { path: 'team', component: TeamComponent },
   { path: 'careers', component: CareersComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'software', component: SoftwareComponent },
   { path: '**', component: HomeComponent }
 ];
 

@@ -4,28 +4,28 @@ body {
   /*padding: 0;*/
   /*margin: 0;*/
   /*background: #FFF;*/
-  background-size: 100%;
+  /*background-size: 100%;*/
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
-  /*background-size: auto 100%;*/
+  background-size: auto 100%;
   /*background-repeat: no-repeat;*/
   /*background-position: left top;*/
 }
-body a {
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-  text-decoration: none;
-}
+/*body a {*/
+/*  transition: 0.5s all;*/
+/*  -webkit-transition: 0.5s all;*/
+/*  -moz-transition: 0.5s all;*/
+/*  -o-transition: 0.5s all;*/
+/*  -ms-transition: 0.5s all;*/
+/*  text-decoration: none;*/
+/*}*/
 /*body a:hover {*/
 /*  text-decoration: none;*/
 /*}*/
 
 /*!* contact *!*/
-/*.contact{background: transparent; padding:50px 0px;}*/
+.contact{background: transparent; padding:50px 0px;}
 .contact-heading h3{
   text-transform: capitalize;
   text-align: center;

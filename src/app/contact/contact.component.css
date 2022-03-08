@@ -2,7 +2,8 @@
 
 
 body {
-  background-image: url("src/assets/images/tel_aviv_from_sky.jpg");
+  /*background-image: url("src/assets/images/tel_aviv_from_sky.jpg");*/
+  background-color: #0c5460;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

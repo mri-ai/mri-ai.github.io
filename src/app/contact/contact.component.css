@@ -4,9 +4,6 @@ html {
   width: 100%;
 }
 
-
-
-
 body{
   background-image: url("src/assets/images/tel_aviv_from_sky.jpg");
   -webkit-background-size: cover;
@@ -19,17 +16,7 @@ body{
   width: 100%;
   overflow: auto;
 }
-/*body a {*/
-/*  transition: 0.5s all;*/
-/*  -webkit-transition: 0.5s all;*/
-/*  -moz-transition: 0.5s all;*/
-/*  -o-transition: 0.5s all;*/
-/*  -ms-transition: 0.5s all;*/
-/*  text-decoration: none;*/
-/*}*/
-/*body a:hover {*/
-/*  text-decoration: none;*/
-/*}*/
+
 
 /*!* contact *!*/
 .contact{background: transparent; padding:50px 0;}
@@ -40,24 +27,6 @@ body{
   font-weight: 600;
   color: #ffffff;
 }
-
-/*.contact-form input[type="text"],.contact-form input[type="email"],textarea{*/
-/*  margin: 1em 0;*/
-/*  padding: .6em 1em;*/
-/*  font-size: 1.2em;*/
-/*  width: 100%;*/
-/*  background: #fff;*/
-/*  border:none;*/
-/*}*/
-/*textarea{*/
-/*  height:100px;*/
-/*}*/
-/*input.form-control:focus {*/
-/*  box-shadow: none;*/
-/*}*/
-/*button.btn.btn-default:focus {*/
-/*  outline: none;*/
-/*}*/
 
 .contact-form  input[type="submit"] {
   background: #ffb900;

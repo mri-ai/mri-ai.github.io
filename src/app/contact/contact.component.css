@@ -1,5 +1,5 @@
 html {
-  margin: 0px;
+  margin: 0;
   height: 100%;
   width: 100%;
 }
@@ -28,7 +28,7 @@ body{
 /*}*/
 
 /*!* contact *!*/
-.contact{background: transparent; padding:50px 0px;}
+.contact{background: transparent; padding:50px 0;}
 .contact-heading h3{
   text-transform: capitalize;
   text-align: center;

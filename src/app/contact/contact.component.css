@@ -20,12 +20,12 @@ body a {
   -ms-transition: 0.5s all;
   text-decoration: none;
 }
-body a:hover {
-  text-decoration: none;
-}
+/*body a:hover {*/
+/*  text-decoration: none;*/
+/*}*/
 
-/* contact */
-.contact{background: transparent; padding:50px 0px;}
+/*!* contact *!*/
+/*.contact{background: transparent; padding:50px 0px;}*/
 .contact-heading h3{
   text-transform: capitalize;
   text-align: center;
@@ -34,26 +34,24 @@ body a:hover {
   color: #ffffff;
 }
 
-.contact-form input[type="text"],.contact-form input[type="email"],textarea{
-  margin: 1em 0;
-  padding: .6em 1em;
-  font-size: 1.2em;
-  width: 100%;
-  background: #fff;
-  border:none;
-}
-textarea{
-  height:100px;
-}
-input.form-control:focus {
-  box-shadow: none;
-}
-button.btn.btn-default:focus {
-  outline: none;
-}
-/*::-webkit-input-placeholder{*/
-/*  !*color:# !important;*!*/
+/*.contact-form input[type="text"],.contact-form input[type="email"],textarea{*/
+/*  margin: 1em 0;*/
+/*  padding: .6em 1em;*/
+/*  font-size: 1.2em;*/
+/*  width: 100%;*/
+/*  background: #fff;*/
+/*  border:none;*/
 /*}*/
+/*textarea{*/
+/*  height:100px;*/
+/*}*/
+/*input.form-control:focus {*/
+/*  box-shadow: none;*/
+/*}*/
+/*button.btn.btn-default:focus {*/
+/*  outline: none;*/
+/*}*/
+
 .contact-form  input[type="submit"] {
   background: #ffb900;
   border: 2px solid #ffb900;

@@ -2,7 +2,7 @@ section.our-team {
   padding: 70px 0px;
   background-color: #f2f9ff;
   text-align: center;
-  color: #fff;
+  color: #795548;
 }
 .our-team .member {
   text-align: center;
@@ -61,7 +61,7 @@ section.our-team {
   font-size: 18px;
   margin: 0 2px;
 }
-.our-team .member:hover .member-info {
+.our-team .member-info {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.57) 20%, rgba(121, 85, 72, 0.09) 100%);
   opacity: 1;
   transition: 0.4s;
@@ -78,3 +78,23 @@ section.our-team {
   margin-right: auto;
   width: 50%;
 }
+.social a{
+  color: #795548;
+}
+.social a:hover{
+  color: #cda45e;
+}
+.member img.image-flip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.member:hover img.image-flip {
+  opacity: 1;
+}
+

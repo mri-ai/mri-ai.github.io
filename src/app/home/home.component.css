@@ -125,3 +125,7 @@ body{
   }
 }
 
+.card:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}

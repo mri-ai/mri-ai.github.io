@@ -1,9 +1,14 @@
 section.our-team {
-  padding: 70px 0px;
-  background-color: #f2f9ff;
+  /*padding: 70px 0px;*/
+  /*background-color: #f2f9ff;*/
   text-align: center;
-  color: #795548;
+  color: teal;
 }
+
+h6{
+  color: teal;
+}
+
 .our-team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -15,7 +20,7 @@ section.our-team {
 }
 .our-team h2 {
   font-size: 36px;
-  color: #795548;
+  color: black;
   font-weight: normal;
 }
 .our-team p {
@@ -79,7 +84,8 @@ section.our-team {
   width: 50%;
 }
 .social a{
-  color: #795548;
+  /*color: #795548;*/
+  color: teal;
 }
 .social a:hover{
   color: #cda45e;

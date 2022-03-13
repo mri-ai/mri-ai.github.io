@@ -177,3 +177,8 @@ ul {
 .mb-30 {
   margin-bottom: 30px;
 }
+@media (max-width: 800px) {
+  .careersTitle {
+    padding-top: 40%;
+  }
+}

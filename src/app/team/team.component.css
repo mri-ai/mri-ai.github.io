@@ -108,4 +108,7 @@ h6{
   .seperator {
     padding: 10%;
   }
+  .teamTitle{
+    padding-top: 40%;
+  }
 }

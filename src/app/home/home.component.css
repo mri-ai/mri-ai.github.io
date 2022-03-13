@@ -20,7 +20,7 @@ img {
   display: block;
   width: 100%;
   background-color: black;
-  padding-top: 50%;
+  padding-top: 12%;
   min-height: 50vh;
 }
 .image_overlay{
@@ -89,6 +89,12 @@ body{
   border-radius: 10px;
 }
 @media (max-width: 800px) {
+
+  .image_image{
+    min-height: 40vh;
+    padding-top: 40%;
+  }
+
 
   .image_overlay{
     height: 30%;

@@ -55,3 +55,8 @@ img{
 }
 
 
+@media (max-width: 800px) {
+  .contactTitle {
+    padding-top: 40%;
+  }
+}

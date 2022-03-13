@@ -12,4 +12,7 @@ export class ResearchComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isDesktopView() {
+    return window.innerWidth > 900;
+  }
 }

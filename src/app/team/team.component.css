@@ -6,7 +6,7 @@ section.our-team {
 }
 
 h6{
-  color: teal;
+  color: black;
 }
 
 .our-team .member {
@@ -104,3 +104,8 @@ h6{
   opacity: 1;
 }
 
+@media (max-width: 800px) {
+  .seperator {
+    padding: 10%;
+  }
+}

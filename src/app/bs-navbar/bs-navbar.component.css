@@ -10,6 +10,13 @@
   color: white;
 }
 
+.logoUniversity{
+  width:208px;
+  height:88px;
+  object-fit:cover;
+  object-position:50% 50%;
+}
+
 img {
   position: relative;
   width: 100%;
@@ -96,6 +103,15 @@ body{
   border-radius: 10px;
 }
 @media (max-width: 800px) {
+  .logoUniversity{
+    width:88px;
+    height:38px;
+  }
+  .brand-title{
+    width: 84px;
+    height: 38px;
+  }
+
   .image_image{
     height: 40%;
   }

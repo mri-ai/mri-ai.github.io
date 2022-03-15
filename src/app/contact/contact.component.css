@@ -28,19 +28,6 @@ body{
   color: #ffffff;
 }
 
-.contact-form  input[type="submit"] {
-  background: #ffb900;
-  border: 2px solid #ffb900;
-  padding: .3em 1em;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 1.2em;
-  font-family: 'Ropa Sans', sans-serif;
-}
-.contact-form  input[type="submit"]:hover{
-  background:none;
-  color:#FFFFFF;
-}
 iframe {
   border: none;
   width: 100%;

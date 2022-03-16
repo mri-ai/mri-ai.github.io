@@ -5,6 +5,10 @@ body{
   min-height: 100%;
 }
 
+html{
+  background-color: #f2f9ff;
+}
+
 section.our-team {
   /*padding: 70px 0px;*/
   /*background-color: #f2f9ff;*/

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicationsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    window.addEventListener('load', (event) => {
+      console.log('page is fully loaded');
+    });
+  }
 
   ngOnInit(): void {
+    localStorage.setItem('page', 'publications')
   }
+
 
 }

@@ -19,6 +19,11 @@ export class BsNavbarComponent implements OnInit {
     toggleButton.addEventListener('click', () => {
       navbarLinks.classList.toggle('active');
     });
+
+    window.addEventListener('resize', () => {
+      navbarLinks.classList.toggle('active');
+    });
+
   }
   getOverlayDisplay(): string{
     console.log('isdisplayed: ', this.isOverlayDisplayed);
@@ -38,7 +43,23 @@ export class BsNavbarComponent implements OnInit {
   }
 
   isSmallWindow() {
+
     var w = window.innerWidth;
+    console.log('size ', w);
     return w < 800;
+  }
+
+  hideMenu() {
+    // @ts-ignore
+    // document.getElementsByClassName<HTMLElement>('navbar-links').style.display = 'none';
+  }
+
+  showMenuTabs() {
+    if (!this.isSmallWindow()){ //its a wide screen
+      return true; //show tabs
+    }
+    // for small screen
+    console.log(this.getBurgerStatus());
+    return this.getBurgerStatus();
   }
 }

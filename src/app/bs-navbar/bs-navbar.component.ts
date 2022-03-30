@@ -36,7 +36,9 @@ export class BsNavbarComponent implements OnInit {
   }
 
   clickBurger() {
-    this.shareService.isBurgerClicked = !this.shareService.isBurgerClicked;
+    if (this.isSmallWindow()){ // click state is relevant only in case the window size is of mobile device
+      this.shareService.isBurgerClicked = !this.shareService.isBurgerClicked;
+    }
   }
   getBurgerStatus(){
     return this.shareService.isBurgerClicked;

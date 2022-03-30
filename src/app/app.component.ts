@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bio Medical Image Lab';
+  public constructor() {
+    window.addEventListener('error', (event) => {
+      console.log('The error is:::' + event)
+    });
+  }
 
 }

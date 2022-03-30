@@ -12,7 +12,6 @@ import {ResearchComponent} from "./research/research.component";
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'publications', component: PublicationsComponent },
-  { path: 'https://mri-ai.github.io/publications', component: PublicationsComponent },
   { path: 'team', component: TeamComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'contact', component: ContactComponent },

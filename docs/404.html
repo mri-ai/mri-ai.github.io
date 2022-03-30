@@ -1,1 +1,4 @@
-<script>location.assign('/');</script>
+<script>
+const currPage: string = localStorage.getItem('page');
+location.assign('/' + currPage);
+</script>

@@ -1,6 +1,8 @@
 <script>
-const currPage: string = localStorage.getItem('page');
-const url = '/' + currPage;
+console.log('loglog');
+console.log(localStorage.getItem('page'));
+var currPage = localStorage.getItem('page');
+var url = '/' + currPage;
 console.log('URL_IS: ' + url);
 location.assign(url);
 </script>

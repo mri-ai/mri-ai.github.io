@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SoftwareComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    //
+  }
 
   ngOnInit(): void {
   }

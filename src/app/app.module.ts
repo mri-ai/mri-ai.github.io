@@ -11,6 +11,7 @@ import { TeamComponent } from './team/team.component';
 import { CareersComponent } from './careers/careers.component';
 import { ContactComponent } from './contact/contact.component';
 import { SoftwareComponent } from './software/software.component';
+import { FundingComponent } from './funding/funding.component';
 import { ResearchComponent } from './research/research.component';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ResearchComponent } from './research/research.component';
     TeamComponent,
     CareersComponent,
     ContactComponent,
+    FundingComponent,
     SoftwareComponent,
     ResearchComponent
   ],

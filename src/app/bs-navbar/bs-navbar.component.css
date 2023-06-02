@@ -31,7 +31,7 @@ img {
 .image_overlay{
   position: absolute;
   top: 12%;
-  left: 0%;
+  left: 0;
   width: 100%;
   height: 100%;
   /*background-color: rgba(0,0,0,0.1);*/
@@ -104,12 +104,14 @@ body{
 }
 @media (max-width: 800px) {
   .logoUniversity{
-    width:88px;
-    height:38px;
+    width:264px;
+    height:33px;
   }
   .brand-title{
-    width: 84px;
-    height: 38px;
+    width: 247px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .image_image{

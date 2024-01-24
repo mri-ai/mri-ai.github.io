@@ -48,7 +48,7 @@ export class BsNavbarComponent implements OnInit {
 
     var w = window.innerWidth;
     console.log('size ', w);
-    return w < 800;
+    return w < 1700;
   }
 
   hideMenu() {

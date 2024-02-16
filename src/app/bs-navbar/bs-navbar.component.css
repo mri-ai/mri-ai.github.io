@@ -64,7 +64,7 @@ body{
 
 .navbar-links li{
   list-style: none;
-  font-size: x-large;
+  font-size: large;
 }
 .navbar-links li a{
   text-decoration: none;
@@ -102,7 +102,7 @@ body{
   background-color: white;
   border-radius: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1700px) {
   .logoUniversity{
     width:264px;
     height:33px;
@@ -158,8 +158,9 @@ body{
   cursor: pointer;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1701px) {
   .navbar-links{
     display: flex;
   }
 }
+

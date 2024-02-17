@@ -51,6 +51,15 @@ deleted:    docs/main-es2015.1563edb8f39e6bb9ede5.js
 git commit -m "...."
 git push
 
+known issues for nvm v20 when running npm run start or build:
 
-to start server run: npm run start
-to build into docs: npm run build -- --prod --outputPath docs
+issue: "not found module...."
+fix by running: 
+1. "npm i webpack@5.0.0-beta.26 --save-dev –force".
+2. "npm i –force"
+
+if you see " Error message "node: --openssl-legacy-provider is not allowed in NODE_OPTIONS" run:
+"export NODE_OPTIONS=--openssl-legacy-provider"
+then the following should work
+npm run start (used to be ng serve)
+npm run build -- --prod --outputPath docs (used to be ng build ... )

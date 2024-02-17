@@ -30,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
  ng build --prod --outputPath docs
 
+
+to start server run: npm run start
+to build into docs: npm run build -- --prod --outputPath docs

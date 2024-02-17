@@ -30,6 +30,27 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
  ng build --prod --outputPath docs
 
+New instructions Feb 17, 2024:
+###########################
+Git add src
+npm run start (used to be ng serve)
+npm run build -- --prod --outputPath docs (used to be ng build ... )
+add everything that’s modified
+[ Don’t stage (add) the following:
+deleted:    docs/main-es2015.1563edb8f39e6bb9ede5.js
+	deleted:    docs/main-es2015.44e34260cefd261983f5.js
+	deleted:    docs/main-es5.1563edb8f39e6bb9ede5.js
+	deleted:    docs/main-es5.44e34260cefd261983f5.js
+	deleted:    docs/polyfills-es2015.7f2be5c3211715ed096a.js
+	deleted:    docs/polyfills-es5.28f12a96904b8f2b6d42.js
+	deleted:    docs/runtime-es2015.0dae8cbc97194c7caed4.js
+	deleted:    docs/runtime-es5.0dae8cbc97194c7caed4.js
+	deleted:    docs/styles.76c42e51d8feacb64782.css
+	modified:   package-lock.json
+	modified:   package.json]
+git commit -m "...."
+git push
+
 
 to start server run: npm run start
 to build into docs: npm run build -- --prod --outputPath docs
